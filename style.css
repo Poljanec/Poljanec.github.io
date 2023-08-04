@@ -9,6 +9,7 @@ header {
    background: #353A40;
    display: inline-block;
    width: 100%;
+   height:120px;
    position: fixed;
    top: 0;
    z-index: 10;
@@ -23,6 +24,26 @@ header {
    vertical-align: middle;
    margin-left: 10px;
 }
+
+html{
+   height: 100%;
+   }
+body{
+   height: 500%;
+   background:  cyan;
+}
+input:valid{
+   color: rgb(255, 0, 0);
+ }
+ 
+input:invalid{
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+   text-align: center;
+   color: magenta;
+   }
 
 h2 {
    color: magenta;
@@ -46,7 +67,7 @@ a {
 }
 
 section {
-   height: 100vh;
+   height: 80vh;
    position: relative;
 }
 
@@ -79,13 +100,18 @@ section > img {
    background-color: green;
 }
 
-h3,
+h3 {
+   text-align: center;
+   color: green;
+}
 h4 {
    text-align: center;
+   color: blue;
 }
 
 .card {
    width: 33%;
+   height: 20%;
    display: inline-block;
    padding: 20px;
 
@@ -93,10 +119,24 @@ h4 {
 
 .card img {
    width: 100%;
+   height: 10%;
+
 }
 
 #lugar {
    display: flex;
+}
+
+#nomb {
+   width:30%;
+}
+
+#cant {
+   width:30%;
+}
+
+#totpag {
+   width:40%;
 }
 
 #lugar img {
@@ -112,6 +152,10 @@ input[type="email"]{
    width:50%;
 }
 
+input[type="Number"]{
+   width:30%;
+}
+
 h5 {
 /*   text-align: right; */
 position:relative;
@@ -120,15 +164,21 @@ left:66%;
 }
 
 h6 {
-/*   text-align: right; */
+text-align: center;
 font-style:oblique;
 font-size: 20px;
 position:relative;
-left:66%;
-/*top: 6%; */
 color: red;
 }
 
+p {
+   text-align: center;
+}
+.footer {
+   background: #353A40;
+/*   display: inline-block; */
+   font: white;
+   }
 
 @media only screen and (max-width: 768px) {
 /* For mobile phones: */
@@ -166,4 +216,5 @@ color: red;
    .col-10 {width: 83.33%;}
    .col-11 {width: 91.66%;}
    .col-12 {width: 100%;}
+
  }
