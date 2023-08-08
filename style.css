@@ -43,11 +43,12 @@ input:invalid{
 }
 
 h1 {
-   text-align: center;
+   text-align:center;
    color: rgb(255, 0, 21);
    }
 
 h2 {
+   text-align:center;
    color: rgb(255, 0, 0);
    display: inline-block;
 }
@@ -174,6 +175,7 @@ color: red;
 }
 
 p {
+   color: red;
    text-align: center;
 }
 .footer {

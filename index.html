@@ -30,24 +30,41 @@
            <br>
            <br>
         </div>
-        <label for="Edad" class="form-label"><b>Edad del encuestado:</b></label>
-        <select id="op">
+        <div>
+        <label for="Edad" class="form-label"><b>Edad del encuestado.............:</b></label>
+        <select id="op" name="edad">
             <option value="Joven+">Joven</option>
             <option value="Adulto+">Adulto</option>
             <option value="Jubilado+">Adulto Mayor</option>
         </select>
         </div>
         <div>  
-        <label for="Sexo" class="form-label"><b> Sexo del encuestado:</b></label>
-        <select id="op">
+        <label for="Sexo" class="form-label"><b>Sexo del encuestado.............:</b></label>
+        <select id="op" name="sexo">
             <option value="Femenino+">Femenino</option>
             <option value="Masculino+">Masculino</option>
             <option value="LGBTQ+">LGBTQ</option>
         </select>
         </div>
+        <div>  
+            <label for="Residencia" class="form-label"><b>Residencia del encuestado:</b></label>
+            <select id="op" name="residencia">
+                <option value="Ciudad+">Ciudad</option>
+                <option value="Pueblo+">Pueblo</option>
+                <option value="Rural+">Rural</option>
+            </select>
+            </div>
+            <div>  
+                <label for="Actividad" class="form-label"><b>Actividad del encuestado..:  </b></label>
+                <select id="op" name="actividad">
+                    <option value="Empleado+">Empleado</option>
+                    <option value="Empresario+">Empresario</option>
+                    <option value="Unipersonal+">Unipersonal</option>
+                </select>
+                </div>
         <div>
-            <label for="Grado de instrucción" class="form-label"><b> Grado de instrucción:</b></label>
-                <select id="op">
+            <label for="Grado de instrucción" class="form-label"><b>Grado de instrucción...........:     </b></label>
+                <select id="op" name="grado">
                     <option value="Primario+">Primario</option>
                     <option value="Secundario+">Secundario</option>
                     <option value="Terciario+">Terciario</option>
@@ -57,7 +74,7 @@
          </div>       
     </div>
     </form>
-    <section class="container-oradores" id="orador">
+<!--    <section class="container-oradores" id="orador">
             <div class="card">
                 <a href="#">javascritp</a>
                 <a href="#">React </a>
@@ -67,19 +84,143 @@
                 <a href="#">javascritp</a>
                 <a href="#">React</a>
                 <h3>Pregunta 2</h3>
-            </div>
+            </div> -->
 <!--           <div class="card">
                 <a href="#">javascritp</a>
                 <a href="#">React </a>
                 <h3>Pregunta 3</h3>
             </div>-->
-            <br>
-            <br>
+           
             <p><b>PERFIL DEL ENCUESTADOR<b></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quidem exercitationem incidunt, nam, laudantium excepturi, unde nostrum repudiandae ipsum blanditiis harum accusamus ipsa numquam aliquam dicta. Facilis reprehenderit illum officiis.
+                <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quidem exercitationem incidunt, nam, laudantium excepturi, unde nostrum repudiandae ipsum blanditiis harum accusamus ipsa numquam aliquam dicta. Facilis reprehenderit illum officiis.
                     quam rerum error vitae accusamus! Voluptatibus doloribus incidunt ullam, laboriosam accusamus est ducimus quidem dolores. Deserunt, maxime. Odit ullam in voluptate ut nostrum magnam repellendus?
-                </p> 
-            
+                </a>
+                <br>
+                <br> 
+                <p><b>PREGUNTAS<b></p>    
+            <form>
+                <div>
+                    <label for="P1" class="form-label"><label for="P1" class="form-label">1. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op1" name="p1">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P2" class="form-label"><label for="P1" class="form-label">2. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op2" name="p2">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P3" class="form-label"><label for="P1" class="form-label">3. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op3" name="p3">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P4" class="form-label"><label for="P4" class="form-label">4. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op4" name="p4">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P5" class="form-label"><label for="P5" class="form-label">5. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op5" name="p5">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P6" class="form-label"><label for="P6" class="form-label">6. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op6" name="p6">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P7" class="form-label"><label for="P7" class="form-label">7. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op7" name="p7">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P8" class="form-label"><label for="P8" class="form-label">8. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op8" name="p8">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P9" class="form-label"><label for="P9" class="form-label">9. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op9" name="p9">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P10" class="form-label"><label for="P10" class="form-label">10. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op10" name="p10">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P11" class="form-label"><label for="P11" class="form-label">11. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op11" name="p11">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P12" class="form-label"><label for="P12" class="form-label">12. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op12" name="p12">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P13" class="form-label"><label for="P13" class="form-label">13. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op13" name="p13">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P14" class="form-label"><label for="P14" class="form-label">14. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op14" name="p14">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                 </div>
+                 <div>
+                    <label for="P15" class="form-label"><label for="P15" class="form-label">15. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
+                    <select id="op15" name="p15">
+                            <option value="Si+">Si</option>
+                            <option value="No+">No</option>
+                            <option value="No contesta+">No contesta</option>
+                        </select>
+                        
+                 </div>
+              </form>
             <form>
 <!--                <div class="mb-3">
                     <div>
@@ -105,14 +246,12 @@
                     <br>
                     <br>
                     <br>
+                    <button type="submit" class="btn btn-primary btn-lg"  <abbr title="AL DAR CLICK SI LOS DATOS SON VALIDOS SE ENVIAN AL SERVIDOR Y SE REINICIALIZA EL FORMULARIO (SINO SE VALIDAN)"</abbr>Enviar</button>
+<!--                    button type="submit" class="btn btn-primary btn-lg"  <abbr title="AL DAR CLICK LOS DATOS SE ENVIAN AL SERVIDOR "</abbr>Enviar</button> -->
                     <br>
-                     
-                    <button type="submit" class="btn btn-primary btn-lg"  <abbr title="AL DAR CLICK LOS DATOS SE ENVIAN AL SERVIDOR "</abbr>Enviar</button>
-                    
-                
-                    
-                    
-                </div>
+                    <br>
+                    <br>
+                   </div>
 <!--                <script>
                                         
                     var r=0;
@@ -163,8 +302,8 @@
 <!--                    <a href="https://poljanec.github.io/">Preguntas frecuentes</a> -->
                     <a href="https://poljanec.github.io/">Contáctanos</a>
                 </p>
-                <p>"   "</p>
-                <p>"    "</p>       
+                <br>
+                <br>       
             </div>
         </footer>
     </body>    
