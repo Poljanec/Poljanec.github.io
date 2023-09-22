@@ -32,48 +32,55 @@
         </div>
         <div>
         <label for="Edad" class="form-label"><b>Edad del encuestado.............:</b></label>
-        <select id="op" name="edad">
-            <option value="Joven+">Joven</option>
-            <option value="Adulto+">Adulto</option>
-            <option value="Jubilado+">Adulto Mayor</option>
+        <select id="edad" name="edad">
+            <option value="Joven">Joven</option>
+            <option value="Adulto">Adulto</option>
+            <option value="Adulto Mayor">Adulto Mayor</option>
         </select>
         </div>
         <div>  
         <label for="Sexo" class="form-label"><b>Sexo del encuestado.............:</b></label>
-        <select id="op" name="sexo">
-            <option value="Femenino+">Femenino</option>
-            <option value="Masculino+">Masculino</option>
-            <option value="LGBTQ+">LGBTQ</option>
+        <select id="sexo" name="sexo">
+            <option value="Femenino">Femenino</option>
+            <option value="Masculino">Masculino</option>
+            <option value="LGBTQ">LGBTQ</option>
         </select>
         </div>
         <div>  
             <label for="Residencia" class="form-label"><b>Residencia del encuestado:</b></label>
-            <select id="op" name="residencia">
-                <option value="Ciudad+">Ciudad</option>
-                <option value="Pueblo+">Pueblo</option>
-                <option value="Rural+">Rural</option>
+            <select id="residencia" name="residencia">
+                <option value="Ciudad">Ciudad</option>
+                <option value="Pueblo">Pueblo</option>
+                <option value="Rural">Rural</option>
             </select>
             </div>
             <div>  
                 <label for="Actividad" class="form-label"><b>Actividad del encuestado..:  </b></label>
-                <select id="op" name="actividad">
-                    <option value="Empleado+">Empleado</option>
-                    <option value="Empresario+">Empresario</option>
-                    <option value="Unipersonal+">Unipersonal</option>
+                <select id="actividad" name="actividad">
+                    <option value="Empleado">Empleado</option>
+                    <option value="Empresario">Empresario</option>
+                    <option value="Unipersonal">Unipersonal</option>
                 </select>
                 </div>
         <div>
             <label for="Grado de instrucción" class="form-label"><b>Grado de instrucción...........:     </b></label>
-                <select id="op" name="grado">
-                    <option value="Primario+">Primario</option>
-                    <option value="Secundario+">Secundario</option>
-                    <option value="Terciario+">Terciario</option>
-                    <option value="Universitario+">Universitario</option>
+                <select id="grado" name="grado">
+                    <option value="Primario">Primario</option>
+                    <option value="Secundario">Secundario</option>
+                    <option value="Terciario">Terciario</option>
+                    <option value="Universitario">Universitario</option>
                     <option value="Otro+">Otro</option>
                 </select>
          </div>       
     </div>
     </form>
+    <script>
+        const op2 = document.querySelector('#sexo').value;
+
+        <!--muestra en la consola (donde esta el código) no en la página-->
+        
+        console.log(op2);
+    </script>
 <!--    <section class="container-oradores" id="orador">
             <div class="card">
                 <a href="#">javascritp</a>
@@ -108,112 +115,112 @@
                         </select>
                  </div>
                  <div>
-                    <label for="P2" class="form-label"><label for="P1" class="form-label">2. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op2" name="p2">
+                    <label for="P2" class="form-label"><label for="P1" class="form-label">2. ¿Qué fue lo que más te gustó del evento? Deja esta pregunta abierta. Si bien las encuestas después del evento son excelentes para identificar los puntos débiles, también ayudan a descubrir lo que hiciste bien.
+                        <select id="op2" name="p2">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
                         </select>
                  </div>
                  <div>
-                    <label for="P3" class="form-label"><label for="P1" class="form-label">3. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op3" name="p3">
+                    <label for="P3" class="form-label"><label for="P1" class="form-label">3. ¿Qué fue lo que menos te gustó del evento? Invita a los participantes a hacer comentarios constructivos con una pregunta directa como esta. Deja esta pregunta abierta para que los participantes puedan explicar su opinión.
+                        <select id="op3" name="p3">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
                         </select>
                  </div>
                  <div>
-                    <label for="P4" class="form-label"><label for="P4" class="form-label">4. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op4" name="p4">
+                    <label for="P4" class="form-label"><label for="P4" class="form-label">4. ¿Qué probabilidad existe de que asistas a uno de nuestros eventos en el futuro? Es mucho más fácil convencer a alguien que ya participó de uno de tus eventos de que asista a otro que convencer a alguien nuevo. Descubre cuántos participantes desean unirse a eventos futuros.
+                        <select id="op4" name="p4">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
                         </select>
                  </div>
                  <div>
-                    <label for="P5" class="form-label"><label for="P5" class="form-label">5. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op5" name="p5">
+                    <label for="P5" class="form-label"><label for="P5" class="form-label">5. ¿Qué probabilidades existen de que recomiendes nuestros eventos a tus amigos? Considerando que es más probable que el 65 % de las personas compren un producto que un amigo compartió con ellos, podemos afirmar con seguridad que una venta por persuasión, como asistir a un evento, puede estar influenciada por la recomendación de alguien.
+                        <select id="op5" name="p5">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
                         </select>
                  </div>
                  <div>
-                    <label for="P6" class="form-label"><label for="P6" class="form-label">6. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op6" name="p6">
+                    <label for="P6" class="form-label"><label for="P6" class="form-label">6. ¿Qué tan satisfecho/a estás con la conferencia? Pide a los participantes que califiquen la fecha, la ubicación, el tema, las reuniones para socializar, las sesiones, a los oradores y el servicio de catering de la conferencia. Evalúa el éxito general del evento con esta pregunta antes de profundizar en los detalles.
+                        <select id="op6" name="p6">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
                         </select>
                  </div>
                  <div>
-                    <label for="P7" class="form-label"><label for="P7" class="form-label">7. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op7" name="p7">
+                    <label for="P7" class="form-label"><label for="P7" class="form-label">7. Según tu opinión, ¿la conferencia cumplió con sus objetivos? Una conferencia sin objetivos claros hace que las personas pierdan su tiempo. Pide a los participantes que califiquen si la conferencia cumplió o no con las expectativas concretas como, por ejemplo, el establecimiento de estándares profesionales específicos.
+                        <select id="op7" name="p7">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
                         </select>
                  </div>
                  <div>
-                    <label for="P8" class="form-label"><label for="P8" class="form-label">8. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op8" name="p8">
+                    <label for="P8" class="form-label"><label for="P8" class="form-label">8. ¿Qué tan bien estructurada estaba la conferencia? Ni los mejores oradores se lucen si los eventos están mal organizados. Descubre qué tan intuitivo fue el programa de la conferencia para los participantes.
+                        <select id="op8" name="p8">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
                         </select>
                  </div>
                  <div>
-                    <label for="P9" class="form-label"><label for="P9" class="form-label">9. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op9" name="p9">
+                    <label for="P9" class="form-label"><label for="P9" class="form-label">9. ¿Hubo suficiente tiempo para debatir? Nada acaba más rápido con el entusiasmo en una conferencia que un orador monótono. Las conferencias prosperan cuando hay un sutil equilibrio entre la parte instructiva y el debate.
+                        <select id="op9" name="p9">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
                         </select>
                  </div>
                  <div>
-                    <label for="P10" class="form-label"><label for="P10" class="form-label">10. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op10" name="p10">
+                    <label for="P10" class="form-label"><label for="P10" class="form-label">10. ¿Qué temas te gustaría que se trataran en conferencias futuras? Usa las preguntas de encuesta posteriores a un evento para recopilar información para tu próximo evento, además de evaluar el último. Úsalas para compartir ideas sobre temas o para hacer una ronda de pruebas de temas potenciales para la conferencia.
+                        <select id="op10" name="p10">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
                         </select>
                  </div>
                  <div>
-                    <label for="P11" class="form-label"><label for="P11" class="form-label">11. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op11" name="p11">
+                    <label for="P11" class="form-label"><label for="P11" class="form-label">11. ¿Qué tan satisfecho/a quedaste con el curso? Pide a tus participantes que califiquen la fecha, la ubicación, las sesiones y a los instructores. Asegúrate de incluir a cada instructor por separado, ya que los participantes podrían estar satisfechos con uno, pero no con el otro.
+                        <select id="op11" name="p11">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
                         </select>
                  </div>
                  <div>
-                    <label for="P12" class="form-label"><label for="P12" class="form-label">12. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op12" name="p12">
+                    <label for="P12" class="form-label"><label for="P12" class="form-label">12. ¿Qué tan útil fue la información presentada en este curso? Lo ideal es que los participantes puedan aplicar inmediatamente la información que aprendieron en los cursos de capacitación en sus trabajos. Evalúa la importancia del curso con esta pregunta.
+                        <select id="op12" name="p12">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
                         </select>
                  </div>
                  <div>
-                    <label for="P13" class="form-label"><label for="P13" class="form-label">13. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op13" name="p13">
+                    <label for="P13" class="form-label"><label for="P13" class="form-label">13. ¿El curso mejoró tus habilidades? Pide a los participantes que califiquen si el curso mejoró o no sus habilidades en cada una de las áreas que se suponía que debía hacerlo.
+                        <select id="op13" name="p13">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
                         </select>
                  </div>
                  <div>
-                    <label for="P14" class="form-label"><label for="P14" class="form-label">14. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op14" name="p14">
+                    <label for="P14" class="form-label"><label for="P14" class="form-label">14. ¿Tuviste la oportunidad de hacer preguntas durante el curso? Con esta pregunta, mide si los participantes se sintieron cómodos o no de decir lo que pensaban durante el curso, o incluso si se les dio la oportunidad de decir algo.
+                        <select id="op14" name="p14">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
                         </select>
                  </div>
                  <div>
-                    <label for="P15" class="form-label"><label for="P15" class="form-label">15. ¿Qué tan satisfecho/a estás con el evento? Pide a los participantes que califiquen la fecha, la ubicación, a los oradores, a los proveedores y el servicio de catering. Haz preguntas de seguimiento sobre los aspectos más importantes del evento, como sobre el orador más destacado.
-                    <select id="op15" name="p15">
+                    <label for="P15" class="form-label"><label for="P15" class="form-label">15. ¿Qué podría haber hecho que el curso fuese mejor? No dudes en pedir comentarios inmediatamente. Termina tu encuesta posterior al evento con una pregunta abierta que permita a los participantes comentar sobre lo que consideran más importante.
+                        <select id="op15" name="p15">
                             <option value="Si+">Si</option>
                             <option value="No+">No</option>
                             <option value="No contesta+">No contesta</option>
